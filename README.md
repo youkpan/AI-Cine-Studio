@@ -1,250 +1,262 @@
-# 展映 AI 影视创作工作室 (AI Cine Studio)
+# AI Cine Studio
 
-> **AI 原生 · 本地优先 · 云端赋能** —— 专为短剧与电影创作者打造的一站式集成创作环境
-
----
-
-## 🎬 产品简介
-
-在 AI 视频创作领域，您是否经历过这样的困扰：在 ChatGPT 写剧本、Midjourney 画图片、Runway 生成视频、再导入剪辑软件拼接——工具割裂、资产混乱、风格不统一、效率低下？
-
-**展映 AI 影视创作工作室** 彻底改变这一切。
-
-这是一款**"AI 原生"的桌面级影视创作 IDE**，将剧本创作、角色设计、分镜规划、AI 视频生成、时间线剪辑、音频工程、最终导出等全流程集成于一个统一的工作空间。您只需专注创意，其余交给我们。
+> **AI-Native · Local-First · Cloud-Powered** — An all-in-one integrated creative environment designed for short drama and film creators.
 
 ---
 
-## ✨ 核心价值
+## 🎬 Overview
 
-### 🏗️ 结构化创作
-强制性的"剧本 → 分镜 → 资产"层级管理体系，从根本上解决 AI 生成内容的随机性问题。每一步都有迹可循，每一个资产都有归属。
+In the world of AI video creation, have you experienced this frustration: writing scripts in ChatGPT, generating images in Midjourney, creating videos in Runway, then importing everything into editing software to piece together — fragmented tools, chaotic asset management, inconsistent styles, and low efficiency?
 
-### 💰 省钱高效
-独创**"静态预演 (Pre-viz)"**工作流——先用分镜图片 + 自动配音搭建完整故事节奏，确认满意后再投入 AI 视频生成。**先排练，后生成**，大幅降低算力成本。
+**AI Cine Studio** changes all of that.
 
-### 📚 工业级版本管理
-引入**"版本堆叠 (Version Stacking)"**机制。同一分镜的多次生成结果以 v1、v2、v3... 形式完整保留，随时切换对比。没有回收站，只有无限可能——鼓励大胆试错，永不丢失任何创意。
+![AI Cine Studio Screenshot](pics/screenshot.png)
 
-### 🤖 AI 对话驱动
-右侧常驻 AI 对话面板，支持**"编剧顾问"**和**"视觉导演"**两种 AI 角色。您可以用自然语言描述需求，AI 自动执行剧本创作、角色生成、分镜设计、视频生成等全部操作。**对话即操作**。
+This is an **"AI-native" desktop-level film & TV creation IDE** that integrates the entire workflow — scriptwriting, character design, storyboard planning, AI video generation, timeline editing, audio engineering, and final export — into a single unified workspace. You focus on creativity; we handle the rest.
 
 ---
 
-## 🖥️ 工作空间
+## 🌍 Languages
 
-产品采用**三栏布局**，让创作流程一目了然：
+- [English](README.md)
+- [中文](README_cn.md)
+
+---
+
+## ✨ Core Value Propositions
+
+### 🏗️ Structured Creation
+A mandatory "Script → Storyboard → Asset" hierarchical management system that fundamentally solves the randomness problem of AI-generated content. Every step is traceable, every asset has its place.
+
+### 💰 Cost-Effective & Efficient
+Our独创 **"Static Pre-viz" workflow** — first build the complete story rhythm with storyboard images + auto-generated voiceover, then invest in AI video generation only after you're satisfied. **Rehearse first, generate later**, dramatically reducing compute costs.
+
+### 📚 Industrial-Grade Version Management
+Introducing **"Version Stacking"** — multiple generations of the same shot are preserved as v1, v2, v3... allowing instant comparison and switching. No recycle bin, only infinite possibilities — encourage bold experimentation, never lose a creative idea.
+
+### 🤖 AI Conversation-Driven
+A persistent AI chat panel on the right side, supporting two AI roles: **Script Advisor** and **Visual Director**. Describe your needs in natural language, and the AI automatically executes scriptwriting, character generation, storyboard design, video generation, and more. **Conversation is operation**.
+
+---
+
+## 🖥️ Workspace
+
+The product uses a **three-column layout** for a clear creative workflow:
 
 ```
 ┌──────────┬───────────────────────────────┬──────────────────┐
-│  资 源   │        动 态 视 图 区          │   AI 对话面板     │
-│  目 录   │                               │   或 任务管理器   │
-│  树      │  编剧工作室 / 导演控制台       │                   │
-│          │  时间线编辑 / 资产预览         │  常驻右侧         │
+│ Resource │        Dynamic View Area       │   AI Chat Panel   │
+│ Tree     │                               │  or Task Manager  │
+│          │  Writer's Room / Director Ctrl │                  │
+│          │  Timeline Edit / Asset Preview │  Persistent Right │
 └──────────┴───────────────────────────────┴──────────────────┘
 ```
 
-### 📝 编剧工作室 —— 从灵感到剧本
+### 📝 Writer's Room (编剧工作室) — From Inspiration to Script
 
-专为剧本全生命周期设计的创作空间：
+A creative space designed for the full lifecycle of scriptwriting:
 
-- **五阶段工作流引导**：创意策划 → 方案设计 → 总纲设定 → 分集规划 → 剧本创作，AI 自动推进阶段
-- **创意/世界观视图**：管理剧本提案、世界观设定、核心角色与场景，支持知识库投喂
-- **剧本生产看板**：以剧集卡片网格管理全部集数，点击即可进入集级编辑
-- **集级编辑三栏布局**：
-  - 左侧：按时间轴拆解的动作节拍 (Beats)
-  - 中间：标准剧本格式正文编辑
-  - 右侧：AI 辅助上下文
-- **一键 AI 辅助**：节拍生成、正文生成、剧本自查，点击即发送到 AI 对话面板执行
+- **5-Stage Workflow Guidance**: Creative Planning → Scheme Design → Outline Setting → Episode Planning → Script Writing — AI automatically advances stages
+- **Creative/Worldview View**: Manage script proposals, world-building, core characters and scenes, with knowledge base feeding
+- **Script Production Board**: Manage all episodes in a card grid, click any card to enter episode-level editing
+- **Episode Editing Three-Column Layout**:
+  - Left: Action Beats broken down by timeline
+  - Center: Standard script format text editor
+  - Right: AI-assisted context panel
+- **One-Click AI Assistance**: Beat generation, script generation, self-check — click to send to the AI chat panel for execution
 
-### 🎥 导演控制台 —— 从文字到画面
+### 🎥 Director Console (导演控制台) — From Text to Visuals
 
-将文字剧本转化为视觉资产的专业工作台：
+A professional workstation for transforming text scripts into visual assets:
 
-- **视觉设定**：
-  - 全局视觉基调管理（风格、色彩、光影、材质）
-  - **风格库系统**：内置 7+ 种预设风格（东方真人古装、欧美真人电影、3D 玄幻、2D 日漫、东方怀旧武侠、80 怀旧港风等），支持用户自定义
-  - 选角与定妆：批量生成角色参考图
-  - 场景勘景：为每个场景生成视觉参考
-- **分镜设计**：逐集设计分镜脚本，支持 `@角色` `@场景` 快捷引用
-- **制作现场**：
-  - 资产库（角色/场景）
-  - 分镜脚本编辑器（支持时间码划分镜头段落）
-  - 实时预览画布
-  - 底部横向分镜序列条，支持拖拽排序、批量操作
+- **Visual Setup**:
+  - Global visual tone management (style, color, lighting, texture)
+  - **Style Library System**: 7+ built-in preset styles (Eastern Historical Costume, Western Live-Action Film, 3D Fantasy, 2D Japanese Anime, Eastern Nostalgic Wuxia, 80s Hong Kong Retro, etc.), with user custom style support
+  - Casting & Makeup: Batch generate character reference images
+  - Location Scouting: Generate visual references for each scene
+- **Storyboard Design**: Design storyboards episode by episode, with `@Character` `@Scene` quick reference
+- **Production Floor**:
+  - Asset Library (Characters/Scenes)
+  - Storyboard Script Editor (supports timecode-based shot segmentation)
+  - Real-time preview canvas
+  - Bottom horizontal storyboard sequence bar with drag-and-drop sorting and batch operations
 
-### 🎞️ 时间线编辑器 —— 剪辑与导出
+### 🎞️ Timeline Editor — Editing & Export
 
-专业级时间线剪辑工具：
+A professional timeline editing tool:
 
-- **预演模式 (Pre-viz)**：将分镜图片铺设到时间线，自动调用 TTS 为对白生成配音，前端自动添加 Ken Burns 运镜动画。**此时不消耗任何视频生成积分**
-- **升维生成 (I2V)**：选中预演片段，一键调用 AI 视频模型生成真实视频，自动注入角色定妆照保证一致性
-- **智能替换**：支持"时长锁定"（自动裁剪/定格补齐）和"波纹替换"（新视频多长就放多长）
-- **多轨音频工程**：对白轨 (TTS) / 音效轨 (SFX) / 音乐轨 (BGM)，导出时自动闪避混音
-- **字幕系统**：基于 TTS 自动生成 SRT 字幕，导出时烧录到视频
-
----
-
-## 🤖 AI 对话系统
-
-### 双角色 AI 助手
-
-| 角色 | 专长 | 适用场景 |
-|------|------|----------|
-| **编剧顾问** | 剧本创作、角色设计、剧情推演 | 编剧工作室 |
-| **视觉导演** | 视觉风格、分镜设计、视频生成 | 导演控制台 |
-
-### 富交互体验
-
-AI 不仅返回文字，还能在对话中呈现：
-- 📋 **选择卡片**：题材、受众、基调选择
-- 📊 **进度条**：实时显示生成进度
-- 🖼️ **资产卡片**：角色/场景信息展示
-- 🎨 **风格选择器**：视觉风格网格选择
-- 📝 **表单收集**：制作参数设定
-- 🖼️ **内嵌图片/视频预览**：生成结果即时查看
-- ⚙️ **工具调用可视化**：透明展示 AI 执行过程
-
-### 个性化配置
-
-- 自动模式开关（跳过确认直接执行）
-- 剧本/分镜修改自动确认
-- 覆盖生成/批量更新自动确认
-- 附件上传（图片/视频/文件作为 AI 上下文）
-- 会话管理（每个项目最多 50 个会话，支持重命名、删除、清理）
+- **Pre-viz Mode**: Lay storyboard images onto the timeline, auto-generate voiceover via TTS for dialogue, and apply Ken Burns camera motion effects on the frontend. **No video generation credits consumed at this stage**.
+- **Dimension Upgrade (I2V)**: Select a pre-viz clip, one-click to generate real AI video, automatically injecting character makeup photos for visual consistency
+- **Smart Replacement**: Supports "Duration Lock" (auto crop/freeze to match) and "Ripple Replace" (new video duration determines placement)
+- **Multi-Track Audio Engineering**: Dialogue Track (TTS) / SFX Track / Music Track (BGM), with auto-ducking mix on export
+- **Subtitle System**: Auto-generate SRT subtitles from TTS, burned into video on export
 
 ---
 
-## 🎨 支持的视觉风格
+## 🤖 AI Conversation System
 
-| 风格 | 分类 | 特点 |
-|------|------|------|
-| 东方真人古装 | 写实 | 中国历史服饰、实景古装剧美学 |
-| 欧美真人电影 | 写实 | 35mm 胶片质感、自然光影 |
-| 东方怀旧武侠 | 写实 | 低饱和度、旧照片色调 |
-| 80 怀旧港风 | 写实 | 霓虹招牌、胶片色调 |
-| 2D 日漫 | 2D 动漫 | 清晰线条、赛璐璐上色 |
-| 2D 动漫 | 2D 动漫 | 明快色彩、平涂渐变 |
-| 3D 玄幻 | 3D 动漫 | 仙侠修真、宏大场景 |
-| 自定义风格 | 自定义 | 用户自行创建专属风格 |
+### Dual-Role AI Assistants
 
----
+| Role | Expertise | Use Case |
+|------|-----------|----------|
+| **Script Advisor** | Scriptwriting, character design, story development | Writer's Room |
+| **Visual Director** | Visual style, storyboard design, video generation | Director Console |
 
-## 📐 画幅与导出
+### Rich Interactive Experience
 
-### 支持的画幅比例
-- **竖屏 9:16**：1080 × 1920（抖音/快手/视频号）
-- **横屏 16:9**：1920 × 1080（B站/YouTube/西瓜视频）
-- **方形 1:1**：1080 × 1080
+The AI doesn't just return text — it renders interactive elements right in the conversation:
+- 📋 **Selection Cards**: Genre, audience, tone selection
+- 📊 **Progress Bars**: Real-time generation progress
+- 🖼️ **Asset Cards**: Character/scene information display
+- 🎨 **Style Selector**: Visual style grid selection
+- 📝 **Form Collection**: Production parameter settings
+- 🖼️ **Embedded Image/Video Preview**: Instant view of generated results
+- ⚙️ **Tool Call Visualization**: Transparent display of AI execution process
 
-### 导出规格
-- **格式**：MP4 (H.264 / H.265)
-- **分辨率**：锁定为项目创建时的分辨率
-- **码率**：高 / 中 / 低 三档可选
-- **音频**：自动闪避混音
-- **字幕**：SRT 烧录
+### Personalized Configuration
 
----
-
-## 💳 商业模式
-
-### 会员订阅
-- **年费会员**：30,000 元/年，赠送 30 万积分
-- **试用模式**：非会员可试用半个月，每天最多使用 6 小时
-
-### 积分消耗
-- **平台模型**：使用内置的 Sora / Seedance / Doubao 等模型，通过云端 Proxy 鉴权扣积分
-- **自带 Key (BYO)**：在设置中填入自己的 API Key，系统按次收取少量处理积分
-
-### 风控保障
-- 批量生成前弹出"预计消耗积分"确认框
-- 仅当 API 故障或系统崩溃时退还积分
+- Auto-mode toggle (skip confirmations for direct execution)
+- Script/storyboard modification auto-confirm
+- Overwrite generation / batch update auto-confirm
+- Attachment upload (images/videos/files as AI context)
+- Session management (up to 50 sessions per project, with rename, delete, and cleanup support)
 
 ---
 
-## 🚀 快速开始
+## 🎨 Supported Visual Styles
 
-### 系统要求
-- **操作系统**：Windows 10/11 (64-bit) / Linux (x86_64 / ARM64)
-- **浏览器**：Chrome 90+ 或 Edge 90+
-- **内存**：建议 8GB 以上
-- **存储**：建议预留 10GB 以上空间用于素材存储
-- **网络**：需要互联网连接以访问 AI 服务
+| Style | Category | Characteristics |
+|-------|----------|-----------------|
+| Eastern Historical Costume | Realistic | Chinese historical costumes, live-action period drama aesthetics |
+| Western Live-Action Film | Realistic | 35mm film grain, natural lighting |
+| Eastern Nostalgic Wuxia | Realistic | Low saturation, vintage photo tones |
+| 80s Hong Kong Retro | Realistic | Neon signs, film color grading |
+| 2D Japanese Anime | 2D Anime | Clean lines, cel-shaded coloring |
+| 2D Anime | 2D Anime | Bright colors, flat gradient shading |
+| 3D Fantasy | 3D Anime | Xianxia cultivation, grand scenes |
+| Custom Style | Custom | Create your own exclusive style |
 
-### 安装步骤
+---
 
-**Windows 用户**：
-1. 下载并解压 `展映 AI 影视创作工作室 AI Cine Studio`
-2. 双击 `运行展映AI影视工作室 Cine Studio.bat` 即可启动
-3. 系统自动打开浏览器访问创作界面
+## 📐 Aspect Ratios & Export
 
-**Linux 用户**：
+### Supported Aspect Ratios
+- **Portrait 9:16**: 1080 × 1920 (TikTok/Kuaishou/WeChat Channels)
+- **Landscape 16:9**: 1920 × 1080 (Bilibili/YouTube/Xigua Video)
+- **Square 1:1**: 1080 × 1080
+
+### Export Specifications
+- **Format**: MP4 (H.264 / H.265)
+- **Resolution**: Locked to the project's creation resolution
+- **Bitrate**: High / Medium / Low — three tiers
+- **Audio**: Auto-ducking mix
+- **Subtitles**: SRT burn-in
+
+---
+
+## 💳 Business Model
+
+### Membership Subscription
+- **Annual Membership**: ¥30,000/year, includes 300,000 credits
+- **Trial Mode**: Non-members can trial for half a month, up to 6 hours per day
+
+### Credit Consumption
+- **Platform Models**: Use built-in Sora / Seedance / Doubao models — credits deducted via cloud Proxy authentication
+- **Bring Your Own Key (BYO)**: Enter your own API Key in settings — the system charges a small processing fee per use
+
+### Risk Protection
+- "Estimated credit consumption" confirmation dialog before batch generation
+- Credits refunded only on API failure or system crash
+
+---
+
+## 🚀 Quick Start
+
+### System Requirements
+- **OS**: Windows 10/11 (64-bit) / Linux (x86_64 / ARM64)
+- **Browser**: Chrome 90+ or Edge 90+
+- **RAM**: 8GB+ recommended
+- **Storage**: 10GB+ free space recommended for asset storage
+- **Network**: Internet connection required for AI services
+
+### Installation
+
+**Windows Users**:
+1. Download and extract `AI Cine Studio`
+2. Double-click the launch batch file to start
+3. The browser will automatically open to the creative interface
+
+**Linux Users**:
 ```bash
-# 安装 FFmpeg（如尚未安装）
+# Install FFmpeg (if not already installed)
 ./install.sh
 
-# 启动服务
+# Start the service
 ./start.sh
 ```
 
-启动后，浏览器将自动打开 `http://127.0.0.1:9900`，即可开始创作。
+After launch, your browser will automatically open to `http://127.0.0.1:9900` to begin creating.
 
-### 首次使用流程
-1. **登录/注册**：校验会员状态
-2. **创建项目**：选择画幅比例（竖屏/横屏）、输入项目名称
-3. **配置 AI 模型**：使用平台模型或填入自己的 API Key
-4. **开始创作**：从编剧工作室或 AI 对话开始您的创作之旅
+### First-Time Workflow
+1. **Login/Register**: Verify membership status
+2. **Create Project**: Choose aspect ratio (portrait/landscape), enter project name
+3. **Configure AI Models**: Use platform models or enter your own API Key
+4. **Start Creating**: Begin your creative journey from the Writer's Room or AI Chat
 
 ---
 
-## 📖 创作流程一览
+## 📖 Creative Workflow Overview
 
 ```
-1. 创意构思 ──→ 2. 剧本生成 ──→ 3. 角色定妆 ──→ 4. 分镜设计
-                                                    │
-5. 导出交付 ←── 4. 视频生成 ←── 3. 预演确认 ←── 4. 静态预演
+1. Ideation ──→ 2. Script Generation ──→ 3. Character Casting ──→ 4. Storyboard Design
+                                                           │
+7. Export ←── 6. Video Generation ←── 5. Pre-viz Confirmation ←── 5. Static Pre-viz
 ```
 
-1. **创意构思**：在编剧工作室确定题材、世界观、角色与场景
-2. **剧本生成**：AI 辅助生成分集大纲、动作节拍、剧本正文
-3. **角色定妆**：在导演控制台为每个角色生成定妆照，作为后续视频生成的"一致性锚点"
-4. **分镜设计**：逐集设计分镜脚本与画面
-5. **静态预演**：一键将分镜铺设到时间线 + 自动配音，快速验证节奏
-6. **视频生成**：选中满意的分镜，升维生成 AI 视频
-7. **剪辑导出**：在时间线上精调、添加音效/音乐/字幕，最终导出 MP4
+1. **Ideation**: Define genre, worldview, characters, and scenes in the Writer's Room
+2. **Script Generation**: AI-assisted episode outlines, action beats, and script body
+3. **Character Casting**: Generate character makeup photos in the Director Console as "consistency anchors" for subsequent video generation
+4. **Storyboard Design**: Design storyboards and visuals episode by episode
+5. **Static Pre-viz**: One-click lay storyboards onto timeline + auto voiceover, quickly validate pacing
+6. **Video Generation**: Select approved storyboards, upgrade to AI-generated video
+7. **Edit & Export**: Fine-tune on the timeline, add SFX/music/subtitles, export final MP4
 
 ---
 
-## 🔧 全局设置
+## 🔧 Global Settings
 
-- **模型配置**：
-  - 平台模型：查看剩余积分、选择内置模型
-  - 自定义模型：配置 BaseURL、API Key、模型名称
-- **网络代理**：HTTP 代理设置，解决国内访问 AI API 问题
-
----
-
-## 📚 文档
-
-- [用户手册](docs/user/) —— 详细的产品使用指南
-- [管理员手册](docs/admin/) —— 部署与运维说明
-- [技术文档](docs/technical/) —— 架构与开发参考
+- **Model Configuration**:
+  - Platform Models: View remaining credits, select built-in models
+  - Custom Models: Configure BaseURL, API Key, model name
+- **Network Proxy**: HTTP proxy settings for accessing AI APIs from regions with restricted access
 
 ---
 
-## 📞 支持与反馈
+## 📚 Documentation
 
-如有任何问题或建议，欢迎通过以下方式联系我们：
-- 产品内反馈入口
-- 官方社区
-
----
-
-## ⚖️ 许可与声明
-
-本产品为商业软件，需购买会员订阅后使用。试用期间功能受限。
-
-所有通过 AI 生成的内容版权归用户所有。
+- [User Manual](docs/user/) — Detailed product usage guide
+- [Admin Manual](docs/admin/) — Deployment and operations guide
+- [Technical Docs](docs/technical/) — Architecture and development reference
 
 ---
 
-**展映 AI 影视创作工作室** —— 让每一帧都来自想象，让每一秒都触手可及。
+## 📞 Support & Feedback
+
+For any questions or suggestions, feel free to reach out:
+- Website: [zyinfo.pro/cine-studio](https://zyinfo.pro/cine-studio)
+- WeChat: youkpan
+- Email: pyq@zyinfo.pro
+- In-product feedback entry
+- Official community
+
+---
+
+## ⚖️ License & Disclaimer
+
+This product is commercial software requiring a membership subscription for full use. Trial functionality is limited.
+
+All AI-generated content copyrights belong to the user.
+
+---
+
+**AI Cine Studio** — Where every frame comes from imagination, and every second is within reach.
